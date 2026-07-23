@@ -5,10 +5,21 @@ CREATE TABLE IF NOT EXISTS STUDENTS
     NAME VARCHAR(15) NOT NULL PRIMARY KEY,
     AGE INT NOT NULL,
     SEX CHAR(1) NOT NULL,
-    MATRIC INT NOT NULL UNIQUE,
+    MATRIC INT NOT NULL,
     AGGREGATE INT NOT NULL
 );
 
 DESC STUDENTS;
 
-
+INSERT INTO STUDENTS 
+VALUES
+("Abu Bakar", 15, "M",  9531185, 456),
+("Aanya", 16, "F",  9531186, 340),
+("Gurvinder", 14, "F",  9531187, 480),
+("Ali", 16, "M",  9531188, 260),
+("Michelle", 15, "F",  9531188, 321),
+("Zubin", 15, "M",  9531184, 412),
+("Simran", 15, "F",  9531183, 378),
+("Fatimah", 14, "F",  9531182, 400),
+("Anup", 15, "M", 9531181, 302),
+("Mita", 16, "F", 9531180, 150);
