@@ -54,7 +54,7 @@ INSERT INTO CUSTOMER
 VALUES
 ('C0001', 'AmitSaha', 'L-10, Pitampura', '4564587852', 'amitsaha2@gmail.com'),
 ('C0002', 'Rehnuma', 'J-12, SAKET ', '5527688761', 'rehnuma@hotmail.com'),
-('C0003', 'CharviNayyar', '10/9, FF, Rohini', '8811635425', 'charvi123r@yahoo.com'),   
+('C0003', 'CharviNayyar', '10/9, FF, Rohini', '8811635425', 'charvi123@yahoo.com'),   
 ('C0004', 'Gurpreet', '1-10/2, SF, MayurVihar', '3511056125', 'gur_singh@yahoo.com');
 
 SELECT * FROM CUSTOMER;
